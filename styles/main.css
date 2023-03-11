@@ -1,0 +1,86 @@
+@import './reset.css';
+
+h1 {
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 0.4rem;
+}
+
+input {
+    text-align: center;
+    background-color: #ebebeb;
+    border: none;
+    margin-bottom: 1rem;
+    font-size: inherit;
+    font-family: inherit;
+    padding: 0rem 0.8rem 0.2rem;
+    font-family: 'acumin-pro-extra-condensed', sans-serif;
+    width: 20rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+button {
+    background-color: black;
+    color: #e8e8e8;
+    font-size: inherit;
+    padding: 0.4rem 0.8rem 0.6rem;
+    font-family: 'acumin-pro-extra-condensed', sans-serif;
+    border: none;
+    cursor: pointer;
+}
+
+.v-stack {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page-container {
+    max-width: 90rem;
+    margin: 8rem auto 4rem;
+    padding: 0 2rem;
+    position: relative;
+}
+
+#logo {
+    max-width: 10rem;
+    margin-bottom: 1rem;
+}
+
+#hatMain {
+    float: right;
+    width: 70rem;
+    max-width: 70rem;
+    position: absolute;
+    z-index: -1;
+    right: 0rem;
+    top: -3rem;
+}
+
+#mainMessage {
+    margin-top: 4rem;
+    margin-left: 8rem;
+}
+
+footer {
+    margin-top: 4rem;
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+#mainView {
+    min-height: 38rem;
+}
+
+#footerMark {
+    font-size: 0rem;
+    margin-top: 0.2rem;
+    margin-right: 0.4rem;
+    width: 1rem;
+}
